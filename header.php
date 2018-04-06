@@ -9,14 +9,14 @@
 	<?php
 
 		if( is_front_page() ):
-			$awesome_classes = array( 'awesome-class', 'my-class' );
+			$theoccident_classes = array( 'theoccident-class', 'my-class' );
 		else:
-			$awesome_classes = array( 'no-awesome-class' );
+			$theoccident_classes = array( 'no-theoccident-class' );
 		endif;
 
 	?>
 
-	<body <?php body_class( $awesome_classes ); ?>>
+	<body <?php body_class( $theoccident_classes ); ?>>
 
 		<div class="container">
 
@@ -34,7 +34,7 @@
 					        <span class="icon-bar"></span>
 					        <span class="icon-bar"></span>
 					      </button>
-					      <a class="navbar-brand" href="#">Awesome Theme</a>
+					      <a class="navbar-brand" href="#">The Occident</a>
 					    </div>
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<?php
